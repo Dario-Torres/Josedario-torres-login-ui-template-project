@@ -1,0 +1,22 @@
+body{
+  background-color: cornflowerblue;
+}
+
+.form-container{
+  margin:10px;
+}
+
+.signin-modal-one{
+  border: 2px solid black;
+  width:55%;
+  height: 50%;
+}
+
+h4{
+  font-weight: 700;
+}
+
+h4.entries{
+  /*font-weight: 400;*/
+  font-size: 15px;
+}
