@@ -15,11 +15,21 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-        <!--Button to activate modal for first login-->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login-modal">
-            Login
-        </button>
-
+        <!-- Normal webpage to host the glorious button -->
+        <div class="container justify-content-center">
+        <div class="card">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <!--Button to activate modal for first login-->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login-modal">
+                Login
+            </button>    
+            </div>
+        </div>
+        </div>
+        
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content box-container">
@@ -33,12 +43,12 @@
                         </div>
                     
                         <!-- Row for email address portion of login -->
-                        <div class="row justify-content-start">
+                        <div class="row justify-content-center">
                             <div class="col-xl-10">
                                 <form>
                                     <div class="form-group">
                                         <label for="user-email">
-                                            <h4 class="entries">Email Address</h4>
+                                              <h4 class="entries">Email Address</h4>
                                         </label>
                                         <input type="email" class="form-control" id="userEmail" placeholder="Enter email">
                                     </div>
@@ -47,7 +57,7 @@
                         </div>
 
                         <!-- Row for password portion of login -->
-                        <div class="row justify-content-start">
+                        <div class="row justify-content-center">
                             <div class="col-xl-10">
                                 <form>
                                     <div class="form-group">
@@ -61,7 +71,7 @@
                         </div>
 
                         <!-- checkbox for "remember me" option -->
-                        <div class="row justify-content-start">
+                        <div class="row justify-content-center">
                             <div class="col-xl-10">
                                 <form>
                                     <div class="form-group">
@@ -78,10 +88,19 @@
 
                         <!-- Submit button-->
                         <div class="row justify-content-center">
-                            <div class="col-xl">
+                            <div class="col-xl-10">
                                 <form>
                                     <button type="submit" class="btn btn-primary btn-block">Submit</button>
                                 </form>
+                            </div>
+                        </div>
+
+                        <!-- "Forgot Password" option-->
+                        <div class="row justify-content-end">
+                            <div class="col-sm-4">
+                                <h7>
+                                    Forgot <a href="#">password?</a>
+                                </h7>
                             </div>
                         </div>
 

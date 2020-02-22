@@ -20,3 +20,11 @@ h4.entries{
   /*font-weight: 400;*/
   font-size: 15px;
 }
+
+.title-card{
+  border:2px solid black
+  display: flex;
+  justify-content: space-around;
+  width:75%;
+  margin-top: 5%;;
+}
